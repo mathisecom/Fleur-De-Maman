@@ -367,21 +367,21 @@
           "type": "stat",
           "settings": {
             "percentage": 91,
-            "text": "<p>happimamas said it was <strong>super soft & comfortable</strong></p>"
+            "text": "<p>Ont déclaré que Fleur De Maman était <strong>ultra doux et confortable</strong></p>"
           }
         },
         "stat_RC76zg": {
           "type": "stat",
           "settings": {
             "percentage": 94,
-            "text": "<p>Claimed happibump <strong>reduced back and hip pressure</strong></p>"
+            "text": "<p>Affirment que Fleur De Maman <strong>réduit la pression sur le dos et les hanches</strong></p>"
           }
         },
         "stat_tCWbph": {
           "type": "stat",
           "settings": {
             "percentage": 93,
-            "text": "<p><strong>Love how versatile</strong> it was for every trimester</p>"
+            "text": "<p>Adorent sa <strong>polyvalence à chaque trimestre</strong></p>"
           }
         }
       },
@@ -395,9 +395,9 @@
         "image": "shopify://shop_images/Maternity_Leggings_IMG_11.1_Desc_CMP.webp",
         "image_alt": "Photo produit",
         "image_border_radius": 16,
-        "button_label": "GET YOURS NOW",
+        "button_label": "OBTENIR MAINTENANT",
         "button_url": "",
-        "guarantee_text": "30-Day Guarantee",
+        "guarantee_text": "GARANTIE 30 JOURS",
         "accent_color": "#c8935a",
         "text_color": "#2d2d2d",
         "background_color": "#ffffff",
