@@ -197,24 +197,28 @@
         "feature_jTHwqn": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/Lasora_Buttery_Soft_Icon_CMP.avif",
             "label": "Buttery Soft"
           }
         },
         "feature_7URRXQ": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/Lasora_Postpartum_Icon_CMP.avif",
             "label": "Includes Postpartum"
           }
         },
         "feature_HqGyDa": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/Lasora_Stretchy_Icon_CMP.avif",
             "label": "Ultra Stretch"
           }
         },
         "feature_xPpfQ8": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/Lasora_Breathable_Icon_CMP.avif",
             "label": "Breathable Design"
           }
         }
