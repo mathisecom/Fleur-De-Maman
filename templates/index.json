@@ -65,13 +65,37 @@
             "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180033.260.jpg",
             "url": ""
           }
+        },
+        "image_3tRdhb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180719.801.jpg",
+            "url": ""
+          }
+        },
+        "image_gYM8tc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180724.144.jpg",
+            "url": ""
+          }
+        },
+        "image_6JhePD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180728.154.jpg",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "image_ArfCGf",
         "image_agGjwr",
         "image_hRLWwW",
-        "image_DXk4Fe"
+        "image_DXk4Fe",
+        "image_3tRdhb",
+        "image_gYM8tc",
+        "image_6JhePD"
       ],
       "name": "SS - Scrolling logo cloud #5",
       "settings": {
@@ -84,7 +108,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 20,
-        "scrolling_velocity_mobile": 18,
+        "scrolling_velocity_mobile": 22,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 52,
