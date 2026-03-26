@@ -108,7 +108,7 @@
         "heading_size_mobile": 18,
         "heading_height": 130,
         "scrolling_velocity": 20,
-        "scrolling_velocity_mobile": 22,
+        "scrolling_velocity_mobile": 24,
         "scrolling_direction": "left",
         "pause_hover": false,
         "scrolling_gap": 52,
