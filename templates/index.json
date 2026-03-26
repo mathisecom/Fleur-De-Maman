@@ -41,24 +41,28 @@
         "image_ArfCGf": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T175912.863.jpg",
             "url": ""
           }
         },
         "image_agGjwr": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T175951.186.jpg",
             "url": ""
           }
         },
         "image_hRLWwW": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180022.253.jpg",
             "url": ""
           }
         },
         "image_DXk4Fe": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_-_2026-03-26T180033.260.jpg",
             "url": ""
           }
         }
@@ -86,7 +90,7 @@
         "scrolling_gap": 52,
         "scrolling_gap_mobile": 16,
         "card_width_desktop": 150,
-        "card_width_mobile": 160,
+        "card_width_mobile": 130,
         "heading_color": "#121212",
         "layout_bg_color": "#FFFFFF",
         "layout_border_color": "#121212",
