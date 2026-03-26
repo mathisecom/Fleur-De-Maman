@@ -120,9 +120,9 @@
         "card_width_desktop": 150,
         "card_width_mobile": 130,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#ffffff",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
@@ -173,6 +173,51 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "none"
+      }
+    },
+    "text_icons_rpaQDr": {
+      "type": "text-icons",
+      "blocks": {
+        "feature_jTHwqn": {
+          "type": "feature",
+          "settings": {
+            "label": "Buttery Soft"
+          }
+        },
+        "feature_7URRXQ": {
+          "type": "feature",
+          "settings": {
+            "label": "Includes Postpartum"
+          }
+        },
+        "feature_HqGyDa": {
+          "type": "feature",
+          "settings": {
+            "label": "Ultra Stretch"
+          }
+        },
+        "feature_xPpfQ8": {
+          "type": "feature",
+          "settings": {
+            "label": "Breathable Design"
+          }
+        }
+      },
+      "block_order": [
+        "feature_jTHwqn",
+        "feature_7URRXQ",
+        "feature_HqGyDa",
+        "feature_xPpfQ8"
+      ],
+      "name": "Icônes produit",
+      "settings": {
+        "columns_desktop": 4,
+        "icon_size": 80,
+        "label_size": 16,
+        "label_color": "#1a1a1a",
+        "background_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "media_with_text_gggNtx": {
@@ -329,6 +374,7 @@
     "featured_collection_HJ4fMb",
     "logo_cloud_NbNb6C",
     "media_with_text_6ngtrf",
+    "text_icons_rpaQDr",
     "media_with_text_gggNtx",
     "testimonials_MbGXVk",
     "faq"
