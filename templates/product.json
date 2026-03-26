@@ -344,6 +344,22 @@
         "spacing": "none"
       }
     },
+    "scrolling_text_RXk9hG": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2c1f14",
+        "text_gradient": ""
+      }
+    },
     "media_with_text_KXJLUt": {
       "type": "media-with-text",
       "blocks": {
@@ -479,6 +495,7 @@
     "logo_cloud_yC4J9U",
     "text_icons_hgpEfL",
     "media_with_text_bmHKd6",
+    "scrolling_text_RXk9hG",
     "media_with_text_KXJLUt",
     "rich_text_ABxFaM",
     "testimonials_icg98Q"
