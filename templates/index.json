@@ -175,6 +175,22 @@
         "spacing": "none"
       }
     },
+    "scrolling_text_PXUgEF": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#2c1f14",
+        "text_gradient": ""
+      }
+    },
     "text_icons_rpaQDr": {
       "type": "text-icons",
       "blocks": {
@@ -254,6 +270,32 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "none"
+      }
+    },
+    "rich_text_rTq3C3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B4GF6t": {
+          "type": "heading",
+          "settings": {
+            "text": "+10,000 Futures Mamans Conquises",
+            "heading_tag": "h4",
+            "text_color": "#2c1f14",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_B4GF6t"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "testimonials_MbGXVk": {
@@ -374,8 +416,10 @@
     "featured_collection_HJ4fMb",
     "logo_cloud_NbNb6C",
     "media_with_text_6ngtrf",
+    "scrolling_text_PXUgEF",
     "text_icons_rpaQDr",
     "media_with_text_gggNtx",
+    "rich_text_rTq3C3",
     "testimonials_MbGXVk",
     "faq"
   ]
