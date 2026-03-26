@@ -367,21 +367,21 @@
           "type": "stat",
           "settings": {
             "percentage": 91,
-            "text": "<p>Ont déclaré que Fleur De Maman était <strong>ultra doux et confortable</strong></p>"
+            "text": "<p>Ont déclaré que Fleur De Maman était <strong>ultra doux et confortable.</strong></p>"
           }
         },
         "stat_RC76zg": {
           "type": "stat",
           "settings": {
             "percentage": 94,
-            "text": "<p>Affirment que Fleur De Maman <strong>réduit la pression sur le dos et les hanches</strong></p>"
+            "text": "<p>Affirment que Fleur De Maman <strong>réduit la pression sur le dos et les hanches.</strong></p>"
           }
         },
         "stat_tCWbph": {
           "type": "stat",
           "settings": {
             "percentage": 93,
-            "text": "<p>Adorent sa <strong>polyvalence à chaque trimestre</strong></p>"
+            "text": "<p>Adorent sa <strong>polyvalence à chaque trimestre.</strong></p>"
           }
         }
       },
