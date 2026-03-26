@@ -223,13 +223,13 @@
             "subheading": "",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
+            "link_text": "OBTENIR MAINTENANT",
             "link_url": "",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#2c1f14",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#c8935a",
             "button_text_color": ""
           }
         }
