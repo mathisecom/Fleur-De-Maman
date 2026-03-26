@@ -1,0 +1,427 @@
+{% comment %}
+  Section : Stats avec image et pourcentages circulaires
+{% endcomment %}
+
+<section class="stats-section" id="stats-section-{{ section.id }}">
+  <div class="stats-section__inner">
+
+    <!-- IMAGE -->
+    <div class="stats-section__image-col">
+      {% if section.settings.image != blank %}
+        <img
+          src="{{ section.settings.image | img_url: '600x800', crop: 'center' }}"
+          alt="{{ section.settings.image_alt | default: 'Section image' }}"
+          class="stats-section__image"
+          loading="lazy"
+        >
+      {% else %}
+        <div class="stats-section__image stats-section__image--placeholder">
+          {{ 'image' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- CONTENU DROITE -->
+    <div class="stats-section__content-col">
+
+      <!-- STATS -->
+      <div class="stats-section__stats">
+        {% for block in section.blocks %}
+          {% if block.type == 'stat' %}
+            <div class="stats-section__stat-item" {{ block.shopify_attributes }}>
+              <!-- Cercle SVG -->
+              <div class="stats-section__circle-wrap">
+                {% assign pct = block.settings.percentage %}
+                {% assign circumference = 220 %}
+                {% assign dash = circumference | times: pct | divided_by: 100 %}
+                <svg class="stats-section__circle-svg" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="stats-section__circle-bg" cx="40" cy="40" r="35"/>
+                  <circle
+                    class="stats-section__circle-fg"
+                    cx="40" cy="40" r="35"
+                    stroke-dasharray="{{ dash }} {{ circumference }}"
+                    stroke-dashoffset="0"
+                    transform="rotate(-90 40 40)"
+                  />
+                </svg>
+                <span class="stats-section__pct-text">{{ pct }}%</span>
+              </div>
+              <!-- Texte stat -->
+              <p class="stats-section__stat-text">{{ block.settings.text }}</p>
+            </div>
+            {% unless forloop.last %}
+              <hr class="stats-section__divider">
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- BOUTON CTA -->
+      {% if section.settings.button_label != blank %}
+        <div class="stats-section__cta-wrap">
+          <a href="{{ section.settings.button_url }}" class="stats-section__cta-btn">
+            {{ section.settings.button_label }}
+          </a>
+          {% if section.settings.guarantee_text != blank %}
+            <p class="stats-section__guarantee">{{ section.settings.guarantee_text }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
+<style>
+  #stats-section-{{ section.id }} {
+    --accent-color: {{ section.settings.accent_color }};
+    --text-color: {{ section.settings.text_color }};
+    --bg-color: {{ section.settings.background_color }};
+    --btn-color: {{ section.settings.button_color }};
+    --btn-text-color: {{ section.settings.button_text_color }};
+    --section-padding-top: {{ section.settings.padding_top }}px;
+    --section-padding-bottom: {{ section.settings.padding_bottom }}px;
+    --border-radius: {{ section.settings.image_border_radius }}px;
+  }
+
+  .stats-section {
+    background-color: var(--bg-color);
+    padding: var(--section-padding-top) 20px var(--section-padding-bottom);
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .stats-section__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* IMAGE */
+  .stats-section__image-col {
+    width: 100%;
+    max-width: 420px;
+  }
+
+  .stats-section__image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
+    display: block;
+    object-fit: cover;
+  }
+
+  .stats-section__image--placeholder svg {
+    width: 100%;
+    height: 400px;
+    border-radius: var(--border-radius);
+    background: #f0ece8;
+  }
+
+  /* CONTENU */
+  .stats-section__content-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* STATS */
+  .stats-section__stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .stats-section__stat-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 18px 0;
+  }
+
+  .stats-section__divider {
+    border: none;
+    border-top: 1px solid #e8e0da;
+    margin: 0;
+  }
+
+  /* CERCLE SVG */
+  .stats-section__circle-wrap {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+  }
+
+  .stats-section__circle-svg {
+    width: 72px;
+    height: 72px;
+  }
+
+  .stats-section__circle-bg {
+    fill: none;
+    stroke: #f0e6e0;
+    stroke-width: 6;
+  }
+
+  .stats-section__circle-fg {
+    fill: none;
+    stroke: var(--accent-color);
+    stroke-width: 6;
+    stroke-linecap: round;
+  }
+
+  .stats-section__pct-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--accent-color);
+    font-family: inherit;
+    line-height: 1;
+  }
+
+  /* TEXTE STAT */
+  .stats-section__stat-text {
+    font-size: 15px;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.5;
+    font-family: inherit;
+  }
+
+  .stats-section__stat-text strong {
+    font-weight: 700;
+  }
+
+  /* BOUTON */
+  .stats-section__cta-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .stats-section__cta-btn {
+    display: block;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    text-align: center;
+    padding: 18px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+
+  .stats-section__cta-btn:hover {
+    opacity: 0.88;
+  }
+
+  .stats-section__guarantee {
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 0;
+    font-family: inherit;
+  }
+
+  /* DESKTOP */
+  @media screen and (min-width: 768px) {
+    .stats-section__inner {
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .stats-section__image-col {
+      flex: 0 0 42%;
+      max-width: 42%;
+    }
+
+    .stats-section__content-col {
+      flex: 1;
+    }
+
+    .stats-section__image {
+      max-height: 580px;
+      object-fit: cover;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Stats avec image",
+  "tag": "section",
+  "class": "section",
+  "max_blocks": 6,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "image_alt",
+      "label": "Texte alternatif (SEO)",
+      "default": "Photo produit"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "default": 16,
+      "unit": "px",
+      "label": "Arrondi des coins"
+    },
+    {
+      "type": "header",
+      "content": "Bouton CTA"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Texte du bouton",
+      "default": "GET YOURS NOW"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Lien du bouton"
+    },
+    {
+      "type": "text",
+      "id": "guarantee_text",
+      "label": "Texte sous le bouton",
+      "default": "30-Day Guarantee"
+    },
+    {
+      "type": "header",
+      "content": "Couleurs"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Couleur accent (cercles)",
+      "default": "#C97B5E"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte",
+      "default": "#2d2d2d"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Couleur de fond",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Couleur du bouton",
+      "default": "#C97B5E"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Couleur texte bouton",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Espacement"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 48,
+      "unit": "px",
+      "label": "Espacement haut"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 48,
+      "unit": "px",
+      "label": "Espacement bas"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Statistique",
+      "settings": [
+        {
+          "type": "range",
+          "id": "percentage",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "default": 91,
+          "unit": "%",
+          "label": "Pourcentage"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Texte de la stat",
+          "default": "<p>happimamas said it was <strong>super soft & comfortable</strong></p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stats avec image",
+      "blocks": [
+        {
+          "type": "stat",
+          "settings": {
+            "percentage": 91,
+            "text": "<p>happimamas said it was <strong>super soft & comfortable</strong></p>"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "percentage": 94,
+            "text": "<p>Claimed happibump <strong>reduced back and hip pressure</strong></p>"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "text": "<p><strong>Love how versatile</strong> it was for every trimester</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
