@@ -9,6 +9,42 @@
  */
 {
   "sections": {
+    "media_with_text_6ngtrf": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nE4eJj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/compilation.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "+10,000 Futures Mamans Conquises",
+            "content": "<p>En 2025, nos leggings de maternité Fleur de Maman ont déjà accompagné des milliers de femmes dans cette merveilleuse aventure qu’est la grossesse.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#c8935a",
+            "button_text_color": "#faf7f2"
+          }
+        }
+      },
+      "block_order": [
+        "image_nE4eJj"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -64,6 +100,7 @@
     }
   },
   "order": [
+    "media_with_text_6ngtrf",
     "faq"
   ]
 }
