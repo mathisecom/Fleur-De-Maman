@@ -71,6 +71,42 @@
         "spacing": "none"
       }
     },
+    "media_with_text_gggNtx": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Y6N8ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/33.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Votre ventre change. Votre confort aussi.",
+            "content": "<p><strong>Fabriqué dans un tissu ultra-extensible</strong>, le legging <strong>épouse chaque courbe</strong> de votre corps, du premier mois jusqu’au dernier.<br/><br/>Il grandit avec vous, sans jamais comprimer, sans jamais glisser, pour que chaque mouvement reste fluide, léger, naturel.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#faf7f2",
+            "background_gradient": "",
+            "text_color": "#2c1f14",
+            "text_gradient": "",
+            "button_background": "#c8935a",
+            "button_text_color": "#faf7f2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Y6N8ff"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "testimonials_MbGXVk": {
       "type": "testimonials",
       "blocks": {
@@ -188,6 +224,7 @@
   "order": [
     "featured_collection_HJ4fMb",
     "media_with_text_6ngtrf",
+    "media_with_text_gggNtx",
     "testimonials_MbGXVk",
     "faq"
   ]
