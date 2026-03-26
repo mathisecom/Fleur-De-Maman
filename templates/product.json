@@ -266,28 +266,28 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Lasora_Buttery_Soft_Icon_CMP.avif",
-            "label": "Buttery Soft"
+            "label": "Ultra Doux"
           }
         },
         "feature_bq4PHY": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Lasora_Postpartum_Icon_CMP.avif",
-            "label": "Includes Postpartum"
+            "label": "Adapté au post-partum"
           }
         },
         "feature_cVnJYT": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Lasora_Stretchy_Icon_CMP.avif",
-            "label": "Ultra Stretch"
+            "label": "Ultra Extensible"
           }
         },
         "feature_Y6HqyB": {
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Lasora_Breathable_Icon_CMP.avif",
-            "label": "Breathable Design"
+            "label": "Conception Respirante"
           }
         }
       },
