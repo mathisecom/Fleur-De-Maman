@@ -315,9 +315,10 @@
         "testimonial_aePihr": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_22.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "John S.",
             "title": "Testimonial 1",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
@@ -326,6 +327,7 @@
         "testimonial_3pkGLE": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_23.png",
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
@@ -337,9 +339,10 @@
         "testimonial_whntLe": {
           "type": "testimonial",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_24.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
+            "rating": 5,
             "author": "Joshua A.",
             "title": "Testimonial 3",
             "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
