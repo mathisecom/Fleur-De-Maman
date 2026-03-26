@@ -244,6 +244,68 @@
         "spacing": "none"
       }
     },
+    "media_with_text_KXJLUt": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_97Xcgx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/compilation.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2c1f14",
+            "text_gradient": "",
+            "button_background": "#c8935a",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_97Xcgx"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "rich_text_ABxFaM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_z9zhPp": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_z9zhPp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "testimonials_icg98Q": {
       "type": "testimonials",
       "blocks": {
@@ -309,6 +371,8 @@
     "main",
     "logo_cloud_yC4J9U",
     "media_with_text_bmHKd6",
+    "media_with_text_KXJLUt",
+    "rich_text_ABxFaM",
     "testimonials_icg98Q"
   ]
 }
