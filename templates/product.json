@@ -360,6 +360,53 @@
         "text_gradient": ""
       }
     },
+    "image_stat_Vg64Nq": {
+      "type": "image-stat",
+      "blocks": {
+        "stat_4DW7aw": {
+          "type": "stat",
+          "settings": {
+            "percentage": 91,
+            "text": "<p>happimamas said it was <strong>super soft & comfortable</strong></p>"
+          }
+        },
+        "stat_RC76zg": {
+          "type": "stat",
+          "settings": {
+            "percentage": 94,
+            "text": "<p>Claimed happibump <strong>reduced back and hip pressure</strong></p>"
+          }
+        },
+        "stat_tCWbph": {
+          "type": "stat",
+          "settings": {
+            "percentage": 93,
+            "text": "<p><strong>Love how versatile</strong> it was for every trimester</p>"
+          }
+        }
+      },
+      "block_order": [
+        "stat_4DW7aw",
+        "stat_RC76zg",
+        "stat_tCWbph"
+      ],
+      "name": "Stats avec image",
+      "settings": {
+        "image": "shopify://shop_images/Maternity_Leggings_IMG_11.1_Desc_CMP.webp",
+        "image_alt": "Photo produit",
+        "image_border_radius": 16,
+        "button_label": "GET YOURS NOW",
+        "button_url": "",
+        "guarantee_text": "30-Day Guarantee",
+        "accent_color": "#c8935a",
+        "text_color": "#2d2d2d",
+        "background_color": "#ffffff",
+        "button_color": "#c8935a",
+        "button_text_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "media_with_text_KXJLUt": {
       "type": "media-with-text",
       "blocks": {
@@ -496,6 +543,7 @@
     "text_icons_hgpEfL",
     "media_with_text_bmHKd6",
     "scrolling_text_RXk9hG",
+    "image_stat_Vg64Nq",
     "media_with_text_KXJLUt",
     "rich_text_ABxFaM",
     "testimonials_icg98Q"
