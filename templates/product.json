@@ -616,29 +616,45 @@
         "item_GMQffR": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Est-ce que ces leggings conviennent à toutes les étapes de la grossesse ?",
+            "content": "<p>Oui, ils sont conçus pour s’adapter à l’évolution de votre ventre, du début jusqu’à la fin de la grossesse.</p>"
           }
         },
         "item_nwMVir": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Les leggings tiennent-ils bien sans glisser ?",
+            "content": "<p>Oui, grâce à leur taille haute et leur matière extensible, ils offrent un maintien optimal toute la journée sans rouler ni glisser.</p>"
           }
         },
         "item_mwnF3e": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Aident-ils vraiment à soulager le dos ?",
+            "content": "<p>Oui, ils répartissent le poids du ventre et réduisent la pression sur le bas du dos, apportant un réel confort au quotidien.</p>"
+          }
+        },
+        "item_dz4gKD": {
+          "type": "item",
+          "settings": {
+            "title": "Sont-ils confortables pour un usage quotidien ?",
+            "content": "<p>Absolument, leur tissu doux et respirant permet de les porter toute la journée sans gêne.</p>"
+          }
+        },
+        "item_kCQwEL": {
+          "type": "item",
+          "settings": {
+            "title": "Conviennent-ils aux peaux sensibles ?",
+            "content": "<p>Oui, ils sont conçus avec des matériaux doux et respectueux de la peau, idéals pendant la grossesse.</p>"
           }
         }
       },
       "block_order": [
         "item_GMQffR",
         "item_nwMVir",
-        "item_mwnF3e"
+        "item_mwnF3e",
+        "item_dz4gKD",
+        "item_kCQwEL"
       ],
       "name": "FAQ",
       "settings": {
