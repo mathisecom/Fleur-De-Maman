@@ -1,0 +1,250 @@
+/* ============================================================
+   video-testimonials.css
+   À placer dans : assets/video-testimonials.css
+   ============================================================ */
+
+.vt-section {
+  background: var(--vt-bg, #ffffff);
+  overflow: hidden;
+}
+
+.vt-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------- Title ---------- */
+.vt-title {
+  text-align: center;
+  color: var(--vt-title-color, #2d2d2d);
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 600;
+  margin: 0 0 48px;
+  letter-spacing: -0.02em;
+}
+
+/* ---------- Slider ---------- */
+.vt-slider-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.vt-track-outer {
+  flex: 1;
+  overflow: hidden;
+}
+
+.vt-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 520px;
+}
+
+/* ---------- Cards ---------- */
+.vt-card {
+  position: absolute;
+  width: 200px;
+  height: 360px;
+  flex-shrink: 0;
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.45s ease,
+              scale 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border-radius: var(--vt-card-radius, 16px);
+  overflow: hidden;
+}
+
+.vt-card--center {
+  scale: 1;
+  opacity: 1;
+  pointer-events: auto;
+  height: 420px;
+  width: 230px;
+  z-index: 10 !important;
+}
+
+.vt-card--side {
+  scale: 0.88;
+  opacity: 0.85;
+  pointer-events: auto;
+}
+
+.vt-card--far {
+  scale: 0.78;
+  opacity: 0.55;
+  pointer-events: auto;
+}
+
+.vt-card--hidden {
+  scale: 0.65;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ---------- Card Inner ---------- */
+.vt-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.vt-card__video,
+.vt-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+.vt-card__placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8e8e8;
+}
+
+/* ---------- Label overlay ---------- */
+.vt-card__label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 40px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 6px 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  z-index: 3;
+}
+
+/* ---------- Mute button ---------- */
+.vt-mute-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s;
+}
+
+.vt-mute-btn:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/* ---------- Stars ---------- */
+.vt-card__footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 28px 12px 12px;
+  background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 100%);
+  z-index: 2;
+}
+
+.vt-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.vt-star { font-size: 1rem; line-height: 1; }
+.vt-star--full  { color: var(--vt-accent, #f5a623); }
+.vt-star--empty { color: rgba(255,255,255,0.35); }
+
+/* ---------- Arrows ---------- */
+.vt-arrow {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.15s;
+  z-index: 20;
+}
+
+.vt-arrow:hover {
+  background: #f0f0f0;
+  transform: scale(1.08);
+}
+
+/* ---------- Dots ---------- */
+.vt-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 28px;
+}
+
+.vt-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: #d0d0d0;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.25s, transform 0.25s;
+}
+
+.vt-dot--active {
+  background: var(--vt-accent, #f5a623);
+  transform: scale(1.3);
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 900px) {
+  .vt-track { height: 440px; }
+  .vt-card { width: 170px; height: 300px; }
+  .vt-card--center { width: 195px; height: 350px; }
+  .vt-arrow { width: 36px; height: 36px; font-size: 1.3rem; }
+}
+
+@media (max-width: 600px) {
+  .vt-title { font-size: 1.3rem; margin-bottom: 32px; }
+  .vt-track { height: 400px; }
+  .vt-card { width: 140px; height: 260px; }
+  .vt-card--center { width: 200px; height: 340px; }
+  .vt-card--side { scale: 0.82; opacity: 0.7; }
+  .vt-card--far  { scale: 0.65; opacity: 0.35; }
+  .vt-slider-wrapper { gap: 4px; }
+  .vt-arrow { width: 32px; height: 32px; font-size: 1.1rem; }
+}
+
+@media (max-width: 380px) {
+  .vt-card { width: 110px; height: 220px; }
+  .vt-card--center { width: 170px; height: 300px; }
+}
