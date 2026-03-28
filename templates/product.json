@@ -204,7 +204,7 @@
       "name": "Avis vidéo",
       "settings": {
         "title": "What happimums have to say",
-        "title_color": "#2d2d2d",
+        "title_color": "#2c1f14",
         "bg_color": "#ffffff",
         "accent_color": "#00a341",
         "card_radius": 16,
