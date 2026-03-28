@@ -206,7 +206,7 @@
         "title": "What happimums have to say",
         "title_color": "#2c1f14",
         "bg_color": "#ffffff",
-        "accent_color": "#00a341",
+        "accent_color": "#05b67a",
         "card_radius": 16,
         "autoplay": true,
         "autoplay_delay": 4000,
