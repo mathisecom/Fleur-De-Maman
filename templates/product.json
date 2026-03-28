@@ -168,6 +168,70 @@
         "input_text_color": ""
       }
     },
+    "video_testimonials_WCzREz": {
+      "type": "video-testimonials",
+      "blocks": {
+        "video_card_4m4mpX": {
+          "type": "video_card",
+          "settings": {
+            "video": "",
+            "label": "",
+            "rating": 5
+          }
+        },
+        "video_card_eDMfYP": {
+          "type": "video_card",
+          "settings": {
+            "video": "",
+            "label": "",
+            "rating": 5
+          }
+        },
+        "video_card_WdMXwd": {
+          "type": "video_card",
+          "settings": {
+            "video": "",
+            "label": "",
+            "rating": 4
+          }
+        },
+        "video_card_jBHLrD": {
+          "type": "video_card",
+          "settings": {
+            "video": "",
+            "label": "",
+            "rating": 5
+          }
+        },
+        "video_card_KijRM4": {
+          "type": "video_card",
+          "settings": {
+            "video": "",
+            "label": "",
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "video_card_4m4mpX",
+        "video_card_eDMfYP",
+        "video_card_WdMXwd",
+        "video_card_jBHLrD",
+        "video_card_KijRM4"
+      ],
+      "name": "Avis vidéo",
+      "settings": {
+        "title": "What happimums have to say",
+        "title_color": "#2d2d2d",
+        "bg_color": "#ffffff",
+        "accent_color": "#00a341",
+        "card_radius": 16,
+        "autoplay": true,
+        "autoplay_delay": 4000,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0
+      }
+    },
     "logo_cloud_yC4J9U": {
       "type": "logo-cloud",
       "blocks": {
@@ -782,6 +846,7 @@
   },
   "order": [
     "main",
+    "video_testimonials_WCzREz",
     "logo_cloud_yC4J9U",
     "text_icons_hgpEfL",
     "media_with_text_bmHKd6",
