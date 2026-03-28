@@ -115,7 +115,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "Informations sur la Livraisons",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
@@ -125,7 +125,7 @@
           "settings": {
             "icon": "none",
             "icon_width": 20,
-            "title": "Title",
+            "title": "14 Jours pour Changer D'Avis",
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
