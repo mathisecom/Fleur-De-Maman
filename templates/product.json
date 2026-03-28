@@ -182,7 +182,7 @@
         "video_card_eDMfYP": {
           "type": "video_card",
           "settings": {
-            "video": "",
+            "video": "https://cdn.shopify.com/videos/c/o/v/6be2cffe1e544a50876cac8ef342971b.mp4",
             "label": "",
             "rating": 5
           }
@@ -190,23 +190,7 @@
         "video_card_WdMXwd": {
           "type": "video_card",
           "settings": {
-            "video": "",
-            "label": "",
-            "rating": 4
-          }
-        },
-        "video_card_jBHLrD": {
-          "type": "video_card",
-          "settings": {
-            "video": "",
-            "label": "",
-            "rating": 5
-          }
-        },
-        "video_card_KijRM4": {
-          "type": "video_card",
-          "settings": {
-            "video": "",
+            "video": "https://cdn.shopify.com/videos/c/o/v/d02d46fd49ba4b4cacb623cb87aa1b5f.mp4",
             "label": "",
             "rating": 4
           }
@@ -215,9 +199,7 @@
       "block_order": [
         "video_card_4m4mpX",
         "video_card_eDMfYP",
-        "video_card_WdMXwd",
-        "video_card_jBHLrD",
-        "video_card_KijRM4"
+        "video_card_WdMXwd"
       ],
       "name": "Avis vidéo",
       "settings": {
