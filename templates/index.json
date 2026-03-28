@@ -46,7 +46,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -196,7 +196,7 @@
             "title": "+10,000 Futures Mamans Conquises",
             "content": "<p>En <strong>2025</strong>, nos leggings de maternité <strong>Fleur de Maman</strong> ont déjà accompagné des milliers de femmes dans cette merveilleuse aventure qu’est la grossesse.</p>",
             "link_text": "OBTENIR MAINTENANT",
-            "link_url": "",
+            "link_url": "shopify://collections/all",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#1a1a1a",
@@ -297,7 +297,7 @@
             "title": "Votre ventre change. Votre confort aussi.",
             "content": "<p><strong>Fabriqué dans un tissu ultra-extensible</strong>, le legging <strong>épouse chaque courbe</strong> de votre corps, du premier mois jusqu’au dernier.<br/><br/>Il grandit avec vous, sans jamais comprimer, sans jamais glisser, pour que chaque mouvement reste fluide, léger, naturel.</p>",
             "link_text": "OBTENIR MAINTENANT",
-            "link_url": "",
+            "link_url": "shopify://collections/all",
             "background": "#faf7f2",
             "background_gradient": "",
             "text_color": "#2c1f14",
