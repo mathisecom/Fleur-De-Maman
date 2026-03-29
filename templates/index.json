@@ -52,6 +52,32 @@
         "background_gradient": ""
       }
     },
+    "rich_text_9FgnUe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Y6H9mn": {
+          "type": "heading",
+          "settings": {
+            "text": "Meilleures Ventes",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6H9mn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_collection_HJ4fMb": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -71,8 +97,8 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "link_url": "",
-        "link_text": "",
+        "link_url": "shopify://collections/all",
+        "link_text": "DÉCOUVRIR",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -548,6 +574,7 @@
   },
   "order": [
     "slideshow_C3RceX",
+    "rich_text_9FgnUe",
     "featured_collection_HJ4fMb",
     "logo_cloud_NbNb6C",
     "media_with_text_gggNtx",
