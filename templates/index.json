@@ -318,6 +318,42 @@
         "spacing": "none"
       }
     },
+    "media_with_text_43LjGi": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_QzMKFA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9111_Schwarz_Side_1.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Confort évolutif dès le 4e mois",
+            "content": "<p>La ceinture élastique haute <strong>s'adapte en douceur à ton ventre</strong> qui s'arrondit, sans serrer ni comprimer. Idéal pour les femmes <strong>à partir du 4e mois de grossesse</strong> environ, ce modèle offre un confort agréable et une grande souplesse au quotidien, qui <strong>t'accompagnera jusqu'à l'accouchement.</strong></p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "shopify://collections/all",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#2c1f14",
+            "text_gradient": "",
+            "button_background": "#c8935a",
+            "button_text_color": "#faf7f2"
+          }
+        }
+      },
+      "block_order": [
+        "image_QzMKFA"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "rich_text_rTq3C3": {
       "type": "rich-text",
       "blocks": {
@@ -517,6 +553,7 @@
     "scrolling_text_PXUgEF",
     "text_icons_rpaQDr",
     "media_with_text_gggNtx",
+    "media_with_text_43LjGi",
     "rich_text_rTq3C3",
     "testimonials_MbGXVk",
     "faq"
