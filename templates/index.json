@@ -15,19 +15,21 @@
         "image_NXwjE4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/header-mameline.webp",
+            "mobile_image": "shopify://shop_images/legging-grossesse-long-en-jersey-uni-marron-bam27_9_hd5.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
+            "subheading": "+10,000 Futures Mamans Conquises",
+            "title": "Des tenues pensées pour deux.",
             "heading_tag": "h3",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "DÉCOUVRIR",
+            "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30,
+            "overlay_opacity": 45,
             "background": "",
             "background_gradient": ""
           }
@@ -36,7 +38,6 @@
       "block_order": [
         "image_NXwjE4"
       ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": true,
