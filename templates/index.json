@@ -326,7 +326,7 @@
           "settings": {
             "image": "shopify://shop_images/9111_Schwarz_Side_1.webp",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -382,7 +382,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#faf7f2",
         "background_gradient": "",
         "text_color": ""
       }
@@ -467,7 +467,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#faf7f2",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
